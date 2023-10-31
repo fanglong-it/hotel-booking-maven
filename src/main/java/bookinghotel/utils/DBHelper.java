@@ -23,6 +23,7 @@ public class DBHelper implements Serializable {
     public static Connection makeConnect() throws SQLException {
         Connection con = null;
         try {
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String user = "sa";
             String pass = "Cunplong115@";
             String url = "jdbc:sqlserver://fanglongpc.hopto.org:1433;databaseName=BookingHotel";
