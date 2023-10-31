@@ -160,7 +160,7 @@
                                             <input type="text" name="totalPrice" value="${sessionScope.TOTAL}" class="form-control"  readonly=""/>
                                         </div>
                                         <!-- End Sort -->
-                                        <form action="PaymentServlet" method="post">
+                                        <form action="CheckOutServlet">
                                             <div class="form-group">
                                                 <button name="btnAction" value="checkOut" class="btn btn-success">Check Out</button>
                                             </div>

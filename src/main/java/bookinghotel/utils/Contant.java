@@ -32,9 +32,9 @@ public class Contant {
     public static final String CLIENT_MODE = "sandbox";
 
 
-    public static final String CANCEL_URL_PAYPAL = "http://localhost:8080/BookingHotel/cancle.jsp";
+    public static final String CANCEL_URL_PAYPAL = "http://localhost:8080/bookinghotel/cancle.jsp";
 //    public static final String CANCEL_URL_PAYPAL = "http://ec2-13-250-143-78.ap-southeast-1.compute.amazonaws.com:8080/BookingHotel/cancle.jsp";
-    public static final String RETURN_URL_PAYPAL = "http://localhost:8080/BookingHotel/paymentConfirm";
+    public static final String RETURN_URL_PAYPAL = "http://localhost:8080/bookinghotel/paymentConfirm";
 //    public static final String RETURN_URL_PAYPAL = "http://ec2-13-250-143-78.ap-southeast-1.compute.amazonaws.com:8080/BookingHotel/paymentConfirm";
 
 }

@@ -32,8 +32,10 @@ import com.paypal.api.payments.PayerInfo;
 import com.paypal.api.payments.Payment;
 import com.paypal.api.payments.RedirectUrls;
 import com.paypal.api.payments.Transaction;
+import com.paypal.base.Constants;
 import com.paypal.base.rest.APIContext;
 import com.paypal.base.rest.PayPalRESTException;
+import com.sun.org.apache.bcel.internal.classfile.Constant;
 
 import java.io.PrintWriter;
 import javax.naming.NamingException;
@@ -203,8 +205,8 @@ public class PaymentServlet extends HttpServlet {
 
     private RedirectUrls getRedirectURLs() {
         RedirectUrls redirectUrls = new RedirectUrls();
-        redirectUrls.setCancelUrl("http://localhost:8080/BookingHotel/cancle.jsp");
-        redirectUrls.setReturnUrl("http://localhost:8080/BookingHotel/paymentConfirm");
+        redirectUrls.setCancelUrl(Contant.CANCEL_URL_PAYPAL);
+        redirectUrls.setReturnUrl(Contant.RETURN_URL_PAYPAL);
 
         return redirectUrls;
     }
