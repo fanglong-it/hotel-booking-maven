@@ -18,7 +18,7 @@ import bookinghotel.utils.DBHelper;
 
 /**
  *
- * @author Phước Hà
+ * @author Longpc
  */
 public class RoomDAO implements Serializable {
 

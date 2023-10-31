@@ -1,0 +1,24 @@
+# Exclude SQL Server database files
+*.mdf
+*.ldf
+
+# Exclude SQL Server backup files
+*.bak
+
+# Exclude SQL Server log files
+*.log
+
+# Exclude SQL Server data files
+*.ndf
+
+# Exclude SQL Server system files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trc
+
+# Exclude other unnecessary files
+.vscode/
+.idea/
+node_modules/

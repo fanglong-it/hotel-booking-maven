@@ -16,23 +16,21 @@ import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 /**
- *
  * @author Phước Hà
  */
-public class DBHelper implements Serializable{
-    
-     public static Connection makeConnect() throws  SQLException{
-         Connection con = null;
-         try {
-             String user = "sa";
-         String pass = "123456";
-         String url = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=BookingHotel";
-        
-             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+public class DBHelper implements Serializable {
+
+    public static Connection makeConnect() throws SQLException {
+        Connection con = null;
+        try {
+            String user = "sa";
+            String pass = "Cunplong115@";
+            String url = "jdbc:sqlserver://fanglongpc.hopto.org:1433;databaseName=BookingHotel";
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             con = DriverManager.getConnection(url, user, pass);
-         } catch (Exception e) {
-             e.printStackTrace();
-         }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return con;
     }
 

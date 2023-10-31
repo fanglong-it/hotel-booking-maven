@@ -30,4 +30,11 @@ public class Contant {
     public static final String CLIENT_ID = "AYrQHcn3xVy1_MNFrqGOvlpl-w182slLCBfSbFLjDYITvAw3a0GdIHMW4Fe4GAf05Kozz44wBet_kNoF";
     public static final String CLIENT_SECRET = "EHwW8z7y6S90uvQZ0mnypkmk1kY4at2UjfCPz30bTC2pCy9C65__uBI4RvFBEApzl8HoMdjZ2KBYL6F9";
     public static final String CLIENT_MODE = "sandbox";
+
+
+    public static final String CANCEL_URL_PAYPAL = "http://localhost:8080/BookingHotel/cancle.jsp";
+//    public static final String CANCEL_URL_PAYPAL = "http://ec2-13-250-143-78.ap-southeast-1.compute.amazonaws.com:8080/BookingHotel/cancle.jsp";
+    public static final String RETURN_URL_PAYPAL = "http://localhost:8080/BookingHotel/paymentConfirm";
+//    public static final String RETURN_URL_PAYPAL = "http://ec2-13-250-143-78.ap-southeast-1.compute.amazonaws.com:8080/BookingHotel/paymentConfirm";
+
 }

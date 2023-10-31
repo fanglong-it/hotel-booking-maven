@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/BookingHotel">
     <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
-              name="sa" password="123456" type="javax.sql.DataSource" 
-              url="jdbc:sqlserver://Localhost:1433;databaseName=BookingHotel" username="sa"/>
+              name="sa" password="Cunplong115@" type="javax.sql.DataSource"
+              url="jdbc:sqlserver://fanglongpc.hopto.org:1433;databaseName=BookingHotel" username="sa"/>
 </Context>

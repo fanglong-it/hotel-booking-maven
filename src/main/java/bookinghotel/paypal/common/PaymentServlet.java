@@ -91,6 +91,8 @@ public class PaymentServlet extends HttpServlet {
         HttpSession session = req.getSession();
 //        Profile profile = (Profile) session.getAttribute("USER");
         AccountDTO userDTO = (AccountDTO) session.getAttribute("ACC");
+
+
         String orderId = req.getParameter("orderId");
         String amountS = req.getParameter("amount");
         OrderDAO orderDAO = new OrderDAO();
