@@ -26,12 +26,19 @@ public class DBHelper implements Serializable {
             String user = "sa";
             String pass = "Cunplong115@";
             String url = "jdbc:sqlserver://fanglongpc.hopto.org:1433;databaseName=BookingHotel";
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             con = DriverManager.getConnection(url, user, pass);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
         return con;
+    }
+
+    public static void main(String[] args) throws SQLException {
+        Connection con = DBHelper.makeConnect();
+        if(con != null){
+            System.out.println("OK");
+        }
     }
 
 }
