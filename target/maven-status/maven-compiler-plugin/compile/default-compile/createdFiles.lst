@@ -18,7 +18,6 @@ bookinghotel\rooms\RoomDAO.class
 bookinghotel\controllers\users\FeedBackPageServlet.class
 bookinghotel\orderservices\OrderServiceDAO.class
 bookinghotel\orderdetails\OrderDetailsDAO.class
-bookinghotel\vnpay\common\Payment_ipn.class
 bookinghotel\validation\CheckValidation.class
 bookinghotel\controllers\accounts\ForgotServlet.class
 bookinghotel\controllers\rooms\DeleteRoomServlet.class
@@ -76,6 +75,7 @@ bookinghotel\controllers\orders\CheckOutServlet.class
 bookinghotel\controllers\rooms\AddRoomTypeServlet.class
 bookinghotel\controllers\users\LoadRoomServlet.class
 bookinghotel\controllers\receptionist\ConfirmOrderServlet.class
+bookinghotel\vnpay\common\PaymentIpn.class
 bookinghotel\controllers\orders\ChangeDiscountCodeServlet.class
 bookinghotel\controllers\rooms\AddRoom.class
 bookinghotel\vnpay\common\ajaxServlet.class

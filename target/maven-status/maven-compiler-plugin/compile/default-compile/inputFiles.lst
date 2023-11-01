@@ -1,6 +1,6 @@
 D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\controllers\rooms\AddRoomTypeServlet.java
 D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\controllers\accounts\NewPasswordControl.java
-D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\vnpay\common\Payment_ipn.java
+D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\vnpay\common\PaymentIpn.java
 D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\controllers\accounts\LoadAccountServlet.java
 D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\controllers\orders\CheckOutServlet.java
 D:\Longpc\Source Code\eclipse-workspace\bookinghotel\src\main\java\bookinghotel\validation\encrypted.java
