@@ -33,8 +33,8 @@ public class Contant {
 
 
 //    public static final String CANCEL_URL_PAYPAL = "http://localhost:8088/bookinghotel/cancle.jsp";
-    public static final String CANCEL_URL_PAYPAL = "http://fanglongpc.hopto.org:8088/BookingHotel/cancle.jsp";
+    public static final String CANCEL_URL_PAYPAL = "http://fanglongpc.hopto.org:8088/hotel/cancle.jsp";
 //    public static final String RETURN_URL_PAYPAL = "http://localhost:8080/bookinghotel/paymentConfirm";
-    public static final String RETURN_URL_PAYPAL = "http://fanglongpc.hopto.org:8088/BookingHotel/paymentConfirm";
+    public static final String RETURN_URL_PAYPAL = "http://fanglongpc.hopto.org:8088/hotel/paymentConfirm";
 
 }
