@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="logo">
-                        <a href="./index.html">
+                        <a href="MainController?">
                             <img src="img/logo.png" alt="">
                         </a>
                     </div>
@@ -85,7 +85,7 @@
                                         <ul class="dropdown " style="">
                                             <li><a href="loadAccount"class="active" >User</a></li>
                                             <li><a href="LoadRoomAdminServlet">Room</a></li>
-                                            <li><a href="information.jsp">Service</a></li>
+                                            <li><a href="information.jsp">Information</a></li>
                                             <li><a href="loadorderbystatus">Reservation</a></li>
                                             <li><a href="LoadServices">Service</a></li>
                                         </ul>

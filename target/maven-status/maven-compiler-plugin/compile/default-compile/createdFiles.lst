@@ -55,6 +55,7 @@ bookinghotel\vnpay\common\Config.class
 bookinghotel\validation\encrypted.class
 bookinghotel\discountcodes\DiscountDTO.class
 bookinghotel\vnpay\common\vnpayQuery.class
+.netbeans_automatic_build
 bookinghotel\controllers\users\SearchHotelServlet.class
 bookinghotel\paypal\common\PaymentConfirm.class
 bookinghotel\utils\UploadFile.class

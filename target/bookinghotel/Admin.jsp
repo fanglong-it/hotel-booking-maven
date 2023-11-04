@@ -159,7 +159,7 @@
                     </ul>
                 </div>
             </div>
-            <a href="home"><button type="button" class="btn btn-primary">Back to home</button> </a>
+            <a href="MainController?"><button type="button" class="btn btn-primary">Back to home</button> </a>
 
         </div>
         <!-- Edit Modal HTML -->
