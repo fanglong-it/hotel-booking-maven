@@ -16,35 +16,37 @@
         <form action="editRoom" method="post">
             <div class="modal-header">						
                 <h4 class="modal-title">Edit Room</h4>
-                
+
             </div>
             <div class="modal-body">
                 <div class="form-group">
                     <label>Room Name</label>
-                    <input name="roomName" type="text" class="form-control" required>
-                </div>
+                    <input name="roomName" type="text" value="${requestScope.room.roomName}" class="form-control" required>
+            </div>
 
-                <div class="form-group">
-                    <label>Number Room</label>
-                    <input name="numberroom" type="text" class="form-control" required>
-                </div>
+            <div class="form-group">
+                <label>Room No</label>
+                <input name="numberroom" readonly="" type="text" value="${requestScope.room.roomNo}" class="form-control" required>
+            </div>
 
-                <div class="form-group">
-                    <label>Price</label>
-                    <input name="price" type="text" class="form-control" required>
-                </div>
-                <div class="form-group">
-
-                    <input name="roomNo" type="hidden" value="${roomNo}"class="form-control" >
+            <div class="form-group">
+                <label>Price</label>
+                <input name="price" type="text" value="${requestScope.room.price}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Quantity</label>
+                <input name="quantity" type="text" value="${requestScope.room.quantity}" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <input name="roomNo" type="hidden" value="${roomNo}"class="form-control" >
             </div>
 
 
         </div>
         <div class="modal-footer">
-            
             <input type="submit" class="btn btn-success" value="Add" style="margin-right: 180px">
         </div>
-        </form>
+    </form>
 
 </div>
 <!-- Footer Section Begin -->
