@@ -1,15 +1,15 @@
 # Bytecode and compiled files
-/target/
+target/
 
 # Compiled class files
 *.class
 
 # IDE-specific files and directories (Eclipse, IntelliJ, NetBeans)
-/.idea/
-/.project
-/.classpath
-/.settings/
-/.metadata/
+.idea/
+.project
+.classpath
+.settings/
+.metadata/
 *.iml
 *.ipr
 *.iws
@@ -18,10 +18,10 @@
 
 
 # Other build and dependency management directories
-/bin/
-/build/
-/lib/
-/out/
-/.gradle/
-/build.gradle
-/gradle-wrapper.jar
+bin/
+build/
+lib/
+out/
+.gradle/
+build.gradle
+gradle-wrapper.jar

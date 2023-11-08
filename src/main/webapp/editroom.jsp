@@ -4,29 +4,31 @@
     Author     : DELL-G3
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <jsp:include page="components/head.jsp"></jsp:include>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/BookingStyle.css">
-<jsp:include page="components/header.jsp"></jsp:include>   
-    <div class="BookingForm">
-        <h1 style="color:#000">Edit Room</h1>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/BookingStyle.css">
+<jsp:include page="components/header.jsp"></jsp:include>
+<div class="BookingForm">
 
-        <form action="editRoom" method="post">
-            <div class="modal-header">						
-                <h4 class="modal-title">Edit Room</h4>
+    <h1 style="color:#000">Edit Room</h1>
 
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label>Room Name</label>
-                    <input name="roomName" type="text" value="${requestScope.room.roomName}" class="form-control" required>
+    <form action="editRoom" method="post">
+        <div class="modal-header">
+            <h4 class="modal-title">Edit Room</h4>
+
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label>Room Name</label>
+                <input name="roomName" type="text" value="${requestScope.room.roomName}" class="form-control" required>
             </div>
 
             <div class="form-group">
                 <label>Room No</label>
-                <input name="numberroom" readonly="" type="text" value="${requestScope.room.roomNo}" class="form-control" required>
+                <input name="numberroom" readonly="" type="text" value="${requestScope.room.roomNo}"
+                       class="form-control" required>
             </div>
 
             <div class="form-group">
@@ -38,7 +40,7 @@
                 <input name="quantity" type="text" value="${requestScope.room.quantity}" class="form-control" required>
             </div>
             <div class="form-group">
-                <input name="roomNo" type="hidden" value="${roomNo}"class="form-control" >
+                <input name="roomNo" type="hidden" value="${roomNo}" class="form-control">
             </div>
 
 
@@ -46,7 +48,11 @@
         <div class="modal-footer">
             <input type="submit" class="btn btn-success" value="Add" style="margin-right: 180px">
         </div>
+        <a href="MainController?">
+            <button type="button" class="btn btn-primary">Back to home</button>
+        </a>
     </form>
+
 
 </div>
 <!-- Footer Section Begin -->
@@ -61,7 +67,7 @@
                                 <img src="img/footer-logo.png" alt="">
                             </a>
                         </div>
-                        <p>We inspire and reach millions of travelers<br /> across 90 local websites</p>
+                        <p>We inspire and reach millions of travelers<br/> across 90 local websites</p>
                         <div class="fa-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -106,9 +112,14 @@
                     </ul>
                 </div>
                 <div class="col-lg-5">
-                    <div class="co-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                    <div class="co-text">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | This template is made with <i class="fa fa-heart"
+                                                                                aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ public class DBHelper implements Serializable {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String user = "sa";
-            String pass = "123";
+            String pass = "Cunplong115@";
             String url = "jdbc:sqlserver://localhost:1433;databaseName=BookingHotel";
             con = DriverManager.getConnection(url, user, pass);
 

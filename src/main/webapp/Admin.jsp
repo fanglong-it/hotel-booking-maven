@@ -28,49 +28,9 @@
 
 
         <style>
-            img{
-                width: 200px;
-                height: 120px;
-            }
         </style>
     <body>
-        <header class="header-section">
-            <div class="top-nav">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="tn-left">
-                                <li><i class="fa fa-phone"></i> ${sessionScope.ACCUSER.phoneNumber}</li>
-                                <li><i class="fa fa-envelope"></i> ${sessionScope.ACCUSER.email}</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tn-right">
-
-
-                                <c:if test="${sessionScope.ACC != null}">
-                                    <a href="#"><i class="fa""></i>Hello ${sessionScope.ACCUSER.name}</a>
-                                    <a class="bk-btn" href="MainController?btnAction=logout" >Logout</a>
-                                </c:if>
-                                <c:if test="${sessionScope.ACC == null}">
-                                    <a href="MainController?btnAction=loginPage" class="bk-btn">Login</a>
-                                </c:if>
-                                <div class="language-option">
-                                    <img src="img/flag.jpg" alt="">
-                                    <span>EN <i class="fa fa-angle-down"></i></span>
-                                    <div class="flag-dropdown">
-                                        <ul>
-                                            <li><a href="#">Zi</a></li>
-                                            <li><a href="#">Fr</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+    <jsp:include page="components/header.jsp"></jsp:include>
         <div class="container">
             <div class="table-wrapper">
                 <div class="table-title">
@@ -123,18 +83,13 @@
                                     <td>${room.typeId} </td>
                                     <td>${room.roomName}</td>
                                     <td>
-                                        <img src="img/room/room-1.jpg">
+                                        <img style="width: 200px; height: 100px" src="img/room/room-1.jpg">
                                     </td>
                                     <td>${room.quantity} </td>
-
                                     <td>${room.price} </td>
-
-
-
-
                                     <td>
                                         <a href="loadroom?roomNo=${room.roomNo}"  class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                                        <a href="deleteRoom?roomNo=${room.roomNo}" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+<%--                                        <a href="deleteRoom?roomNo=${room.roomNo}" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>--%>
                                         <!--                                    <a href="Detail.jsp" class="delete" ><i class="material-icons" data-toggle="tooltip" title="Details">&#8756;</i></a>-->
                                     </td>
                                 </tr>
@@ -146,18 +101,6 @@
 
                     </tbody>
                 </table>
-                <div class="clearfix">
-                    <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
-                    <ul class="pagination">
-                        <li class="page-item disabled"><a href="#">Previous</a></li>
-                        <li class="page-item"><a href="#" class="page-link">1</a></li>
-                        <li class="page-item"><a href="#" class="page-link">2</a></li>
-                        <li class="page-item active"><a href="#" class="page-link">3</a></li>
-                        <li class="page-item"><a href="#" class="page-link">4</a></li>
-                        <li class="page-item"><a href="#" class="page-link">5</a></li>
-                        <li class="page-item"><a href="#" class="page-link">Next</a></li>
-                    </ul>
-                </div>
             </div>
             <a href="MainController?"><button type="button" class="btn btn-primary">Back to home</button> </a>
 
