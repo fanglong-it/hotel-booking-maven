@@ -92,7 +92,7 @@
                                                             <td>
                                                                 <a href="MainController?btnAction=viewOrderDetails&orderId=${o.orderId}" class="ico edit">Details</a><br>
                                                                 <a href="cancelorder?orderId=${o.orderId}" class="ico edit btn-link"onclick="return confirm('Are you sure cancel?')">Cancel</a><br>
-                                                                <a href="MainController?btnAction=deleteOrder&orderId=${o.orderId}" class="ico del btn-link" onclick="return confirm('Are you sure delete?')">Delete</a>
+<%--                                                                <a href="MainController?btnAction=deleteOrder&orderId=${o.orderId}" class="ico del btn-link" onclick="return confirm('Are you sure delete?')">Delete</a>--%>
                                                                 <!-- Button trigger modal -->
                                                                 <br>
                                                                 <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal-${counter.count}">

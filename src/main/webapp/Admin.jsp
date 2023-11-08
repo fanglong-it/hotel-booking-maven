@@ -110,12 +110,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <form action="addroom" method="post">
-                        <div class="modal-header">						
-                            <h4 class="modal-title">Add Room</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        </div>
+<%--                        <div class="modal-header">						--%>
+<%--                            <h4 class="modal-title">Add Room</h4>--%>
+<%--                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>--%>
+<%--                        </div>--%>
                         <div class="modal-body">
-                           
                             <div class="form-group">
                                 Room Name
                                 <input name="roomName" type="text" class="form-control" required>
@@ -142,10 +141,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <form action="addhotel" method="post">
-                        <div class="modal-header">						
-                            <h4 class="modal-title">Add Hotel</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        </div>
+<%--                        <div class="modal-header">						--%>
+<%--                            <h4 class="modal-title">Add Hotel</h4>--%>
+<%--                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>--%>
+<%--                        </div>--%>
                         <div class="modal-body">
                             <div class="form-group">
                                 <label>Hotel Name</label>
@@ -177,10 +176,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <form action="addroomtype" method="post">
-                        <div class="modal-header">						
-                            <h4 class="modal-title">Add RoomType</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        </div>
+<%--                        <div class="modal-header">						--%>
+<%--                            <h4 class="modal-title">Add RoomType</h4>--%>
+<%--                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>--%>
+<%--                        </div>--%>
                         <div class="modal-body">
                             <div class="form-group">
                                 <label>Type Name</label>
