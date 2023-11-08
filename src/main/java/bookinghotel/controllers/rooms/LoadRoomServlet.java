@@ -39,10 +39,10 @@ public class LoadRoomServlet extends HttpServlet {
             throws ServletException, IOException {
         try {
             int roomNo = Integer.parseInt(request.getParameter("roomNo"));
-            RoomDAO room = new RoomDAO();
-
+            RoomDAO roomDAO = new RoomDAO();
+            RoomDTO room = roomDAO.getRoomByRoomNo(roomNo);
             request.setAttribute("roomNo", roomNo);
-
+            request.setAttribute("room", room);
         } catch (Exception e) {
             log("Error at LoadRoomServlet:" + e.toString());
         } finally {
