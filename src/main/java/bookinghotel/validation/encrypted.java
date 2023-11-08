@@ -30,6 +30,6 @@ public class encrypted {
     public static void main(String[] args) throws NoSuchAlgorithmException {
         encrypted a = new encrypted();
         
-        System.out.println(a.encryptedPassword("1234"));
+        System.out.println(a.encryptedPassword("admin"));
     }
 }
